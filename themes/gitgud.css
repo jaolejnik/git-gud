@@ -1,0 +1,356 @@
+@charset "UTF-8";
+/*!
+ * This is just edited Marp Dracula theme by Daniel Nicolas Gisolfi.
+ * @theme gitgud
+ * @author Jakub Olejnik
+ *
+ * @auto-scaling true
+ * @size 4:3 960px 720px
+ * @size 16:9 1920px 1080px
+ * @size 9:16 900px 1600px
+ */
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,900|IBM+Plex+Sans:400,700");
+@import 'gaia';
+
+:root {
+    --gitgud-background: #282a36;
+    --gitgud-current-line: #44475a;
+    --gitgud-foreground: #f8f8f2;
+    --gitgud-comment: #6272a4;
+    --gitgud-cyan: #8be9fd;
+    --gitgud-green: #50fa7b;
+    --gitgud-orange: #ffb86c;
+    --gitgud-pink: #ff79c6;
+    --gitgud-purple: #bd93f9;
+    --gitgud-red: #ff5555;
+    --gitgud-yellow: #f1fa8c;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    background: var(--gitgud-background);
+}
+
+.hljs,
+.hljs-subst,
+.hljs-typing,
+.hljs-variable,
+.hljs-template-variable {
+    color: var(--gitgud-foreground);
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-deletion {
+    color: var(--gitgud-comment);
+}
+
+.hljs-meta .hljs-doctag,
+.hljs-built_in,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-link,
+.hljs-class {
+    color: var(--gitgud-cyan);
+}
+
+
+.hljs-title {
+    color: var(--gitgud-green);
+}
+
+.hljs-params {
+    color: var(--gitgud-orange);
+}
+
+.hljs-keyword {
+    color: var(--gitgud-pink);
+}
+
+.hljs-literal,
+.hljs-number {
+    color: var(--gitgud-purple);
+}
+
+.hljs-regexp {
+    color: var(--gitgud-red);
+}
+
+.hljs-string,
+.hljs-name,
+.hljs-type,
+.hljs-attr,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition,
+.hljs-template-tag {
+    color: var(--gitgud-yellow);
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-literal,
+.hljs-title,
+.hljs-section,
+.hljs-doctag,
+.hljs-type,
+.hljs-name,
+.hljs-strong {
+    font-weight: bold;
+}
+
+.hljs-params,
+.hljs-emphasis {
+    font-style: italic;
+}
+
+svg[data-marp-fitting=svg] {
+    max-height: 580px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0.5em 0 0 0;
+    color: var(--gitgud-foreground);
+}
+
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong {
+    font-weight: inherit;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 0.9em;
+}
+
+p,
+blockquote {
+    margin: 1em 0 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+ul>li,
+ol>li {
+    margin: 0.3em 0 0 0;
+    color: var(--gitgud-foreground);
+}
+
+ul>li>p,
+ol>li>p {
+    margin: 0.6em 0 0 0;
+}
+
+li:before {
+    content: ">";
+    padding-right: 10px;
+}
+
+code {
+    display: inline-block;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 0.8em;
+    letter-spacing: 0;
+    margin: -0.1em 0.15em;
+    padding: 0.1em 0.2em;
+    vertical-align: baseline;
+    color: var(--gitgud-green);
+}
+
+pre {
+    display: block;
+    margin: 1em 0 0 0;
+    min-height: 1em;
+    overflow: visible;
+}
+
+pre code {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 100%;
+    padding: 0.5em;
+    font-size: 0.7em;
+}
+
+pre code svg[data-marp-fitting=svg] {
+    max-height: calc(580px - 1em);
+}
+
+blockquote {
+    margin: 1em 0 0 0;
+    padding: 0 1em;
+    position: relative;
+    color: var(--gitgud-orange);
+}
+
+blockquote::after,
+blockquote::before {
+    content: "“";
+    display: block;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    position: absolute;
+    color: var(--gitgud-green);
+}
+
+blockquote::before {
+    top: 0;
+    left: 0;
+}
+
+blockquote::after {
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+}
+
+blockquote>*:first-child {
+    margin-top: 0;
+}
+
+mark {
+    background: transparent;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 1em 0 0 0;
+}
+
+table th,
+table td {
+    padding: 0.2em 0.4em;
+    border-width: 1px;
+    border-style: solid;
+}
+
+section {
+    font-size: 35px;
+    font-family: "IBM Plex Sans";
+    line-height: 1.35;
+    letter-spacing: 1.25px;
+    padding: 70px;
+    color: var(--gitgud-foreground);
+    background-color: var(--gitgud-background);
+}
+
+section>*:first-child,
+section>header:first-child+* {
+    margin-top: 0;
+}
+
+section a,
+section mark {
+    color: var(--gitgud-cyan);
+}
+
+section code {
+    background: var(--gitgud-current-line);
+    color: var(--gitgud-current-green);
+}
+
+section h1 strong,
+section h2 strong,
+section h3 strong,
+section h4 strong,
+section h5 strong,
+section h6 strong {
+    color: var(--gitgud-current-line);
+}
+
+section pre>code {
+    background: var(--gitgud-current-line);
+}
+
+section header,
+section footer,
+section section::after,
+section blockquote::before,
+section blockquote::after {
+    color: var(--gitgud-comment);
+}
+
+section table th,
+section table td {
+    border-color: var(--gitgud-current-line);
+}
+
+section table thead th {
+    background: var(--gitgud-current-line);
+    color: var(--gitgud-yellow);
+}
+
+section table tbody>tr:nth-child(even) td,
+section table tbody>tr:nth-child(even) th {
+    background: var(--gitgud-current-line);
+}
+
+header,
+footer,
+section::after {
+    box-sizing: border-box;
+    font-size: 66%;
+    height: 70px;
+    line-height: 50px;
+    overflow: hidden;
+    padding: 10px 25px;
+    position: absolute;
+    color: var(--gitgud-comment);
+}
+
+header {
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+section::after {
+    right: 0;
+    bottom: 0;
+    font-size: 80%;
+}
+
+.git {
+    color: var(--gitgud-green);
+    fill: var(--gitgud-green);
+}
