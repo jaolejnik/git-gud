@@ -160,7 +160,7 @@ blockquote {
 }
 
 ul {
-    list-style: none;
+    list-style: "> ";
 }
 
 ul>li,
@@ -172,11 +172,6 @@ ol>li {
 ul>li>p,
 ol>li>p {
     margin: 0.6em 0 0 0;
-}
-
-li:before {
-    content: ">";
-    padding-right: 10px;
 }
 
 code {
@@ -358,5 +353,10 @@ section::after {
 .audience-question {
     color: var(--gitgud-pink);
     font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.sidenote {
+    color: var(--gitgud-comment);
     font-style: italic;
 }

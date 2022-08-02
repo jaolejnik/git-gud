@@ -27,7 +27,7 @@ paginate: true
 # TODO
 - Bash 101
 - What is <span class="git">Git</span>?
-- Creating and managing a repository
+- Creating a repository
 - Working in a team
 - Best practices
 
@@ -35,7 +35,7 @@ paginate: true
 # TODO
 - **Bash CLI 101** 👈
 - What is <span class="git">Git</span>?
-- Creating and managing a repository
+- Creating a repository
 - Working in a team
 - Best practices
 
@@ -53,7 +53,7 @@ paginate: true
 # TODO
 -  Bash CLI 101 ✅
 - **What is <span class="git">Git</span>?** 👈
-- Creating and managing a repository
+- Creating a repository
 - Working in a team
 - Best practices
 
@@ -70,7 +70,7 @@ Let my real life version explain what I mean!
 # TODO
 - Bash CLI 101 ✅
 - What is <span class="git">Git</span>? ✅
-- **Creating and managing a repository** 👈
+- **Creating a repository** 👈
 - Working in a team
 - Best practices
 ---
@@ -146,7 +146,7 @@ To add a new `remote` to the repository use the following command:
 ```
 $ git add remote origin <repo-url>
 ```
-`repo-url` is the  URL of the repo you're gonna create on <span class="git">Git</span>Hub - right now!
+`repo-url` is the  URL of the repository you're gonna create on <span class="git">Git</span>Hub - right now!
 \
 \
 All done? Let's try with the push one more time.
@@ -154,9 +154,35 @@ All done? Let's try with the push one more time.
 <!-- <span class="audience-question">Hey it works!</span> -->
 
 ---
-# TIME FOR A BREAK 🕚
+# TODO
+- Bash CLI 101 ✅
+- What is <span class="git">Git</span>? ✅
+- Creating a repository ✅
+- **Working in a team** 👈
+- Best practices
 
-Create a 2-3 person groups as we'll be covering teamwork with <span class="git">Git</span>.
+---
+# TIME FOR A BREAK 🕚
+Form groups of 2-4. 
+
+After the break we'll be covering teamwork with <span class="git">Git</span>.
+
+---
+# TODO
+- Bash CLI 101 ✅
+- What is <span class="git">Git</span>? ✅
+- Creating a repository ✅
+- **Working in a team** 👈
+- Best practices
+
+---
+## TEAMWORK AND <span class="git"> GIT</span>
+<span class="git"> Git</span> is a great tool for a single developer. 
+But is even a **greater** one for developers working in a team.
+
+Imagine working on a big project, which has hundreds of files, each at least 500 lines of code long. How do you handle that?
+
+By using <span class="git"> Git</span> of course!
 
 ---
 ## CLONING A <span class="git">GIT</span> REPOSITORY
@@ -166,25 +192,58 @@ Let's start by cloning this repo: [repolinkTODO]()
 $ git clone repolinkssshTODO
 ```
 
-**_NOTE_:** When cloning a repo it will create the directory with the exact name as the repo and put all the contents there. 
-No need to create an additional directory for it.
+<span class="sidenote">**NOTE:** When cloning a repository it will create the directory with the exact name as the repository and put all the contents there. 
+No need to create an additional directory for it.</span>
+
+You can now see you have a local copy of the repository.
+
+You don't have to perform any of the previous steps to start making commits, because `git clone` takes care of initialization and setting up the remote since you gave it all the required information.
+
+But...
+
+---
+## REMOTE REPOSITORY PERMISSIONS
+You need proper permissions to push the commits to the remote.
+
+You're free to clone any public repository but you cannot publish any changes unless you are part of the collaborators for this repository.
+
+Try to make any change, commit and push it.
+
+<span class="audience-question">Failed...</span>
+
+In that case we need to remove the data that link the files in the repository to my remote and link it to the one that you have access to. 
+
+Any ideas?
+
+---
+## QUICK EXERCISE
+- Remove `.git` directory.
+- Initialize it as your own repository.
+- Check if there is a commit history.
+- Create and add a new remote.
+- Make and push a new commit.
+
+---
+## ADDING TEAM MEMBERS
+To add other people to your git repository do the following:
+
+- Open your repository on <span class="git">Git</span>Hub.
+- Go to the `Settings` tab.
+- On the sidebar select `Collaborators and team`.
+- Click `Add people` button and type their name/username/email.
+
+After few minutes, they should receive an email with the invitation from you.
+
+Once they've accepted, you can edit their permissions.
+
+
+
 
 ---
 # TODO
 - Bash CLI 101 ✅
 - What is <span class="git">Git</span>? ✅
-- Creating and managing a repository ✅
-- **Working in a team** 👈
-- Best practices
-
----
-## TEAMWORK AND <span class="git"> GIT</span>
-
----
-# TODO
-- Bash CLI 101 ✅
-- What is <span class="git">Git</span>? ✅
-- Creating and managing a repository ✅
+- Creating a repository ✅
 - Working in a team ✅
 - **Best practices** 👈
 
@@ -198,7 +257,7 @@ No need to create an additional directory for it.
 # TODO
 - Bash CLI 101 ✅
 - What is <span class="git">Git</span>? ✅
-- Creating and managing a repository ✅
+- Creating a repository ✅
 - Working in a team ✅
 - Best practices ✅
 
