@@ -83,7 +83,6 @@ $ git init
 ```
 
 With this command you can turn any directory into a <span class="git">Git</span> repository. It's all thanks to the magical `.git` directory.
-Now check for the magical `.git` directory.
 
 <span class="audience-question">What are you talking about?
  I can't see anything like that!</span>
@@ -186,10 +185,10 @@ By using <span class="git"> Git</span> of course!
 
 ---
 ## CLONING A <span class="git">GIT</span> REPOSITORY
-Let's start by cloning this repo: [repolinkTODO]()
+Let's start by cloning this repo: [git-gud-py](https://github.com/jaolejnik/git-gud-py)
 
 ```
-$ git clone repolinkssshTODO
+$ git clone <repo-url>  
 ```
 
 <span class="sidenote">**NOTE:** When cloning a repository it will create the directory with the exact name as the repository and put all the contents there. 
@@ -236,8 +235,22 @@ After few minutes, they should receive an email with the invitation from you.
 
 Once they've accepted, you can edit their permissions.
 
+Now everyone clone the repository.
 
 
+---
+## WORKING WITH BRANCHES
+_Branching means you diverge from the main line of development and continue to do work without messing with that main line._
+And that is one of the biggest reasons why <span class="git">Git</span> is a great tool for working in a team.
+
+To create a new branch:
+```
+git branch <new-branch>
+```
+...then to change to the branch:
+```
+git checkout <new-branch>
+```
 
 ---
 # TODO
