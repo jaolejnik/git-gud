@@ -1,7 +1,7 @@
 ---
 marp: true
 title: GIT GUD
-author: Jakub Olejnik & Aleksander Pucher
+author: Jakub Olejnik 
 theme: gitgud
 size: 4:3
 color: white
@@ -11,7 +11,7 @@ paginate: true
 # $ <span class="git">git</span> gud
 ### LEARN <span class="git">GIT</span> CLI BASICS :technologist:
 
-<!-- _footer: _Prepared by [Jakub Olejnik]() | 2022_-->
+<!-- _footer: _Prepared by [Jakub Olejnik](https://www.linkedin.com/in/jakub-olejnik-85a686203/) | 2022_-->
 
 ---
 
@@ -25,7 +25,7 @@ paginate: true
 
 ---
 # TODO
-- Bash 101
+- Bash CLI 101
 - What is <span class="git">Git</span>?
 - Creating a repository
 - Working in a team
@@ -77,7 +77,7 @@ Let my real life version explain what I mean!
 ## CREATING A <span class="git"> GIT</span> REPOSITORY
 Let's create a new directory called `repo-test` and then inside this directory create a new file `README.md`.
 
-Next, run this command to initialize as a git repository:
+Next, run this command to initialize it as a <span class="git">Git</span> repository:
 ```
 $ git init
 ```
@@ -98,6 +98,15 @@ Without it, no git commands would work.
  $ ls -al
  ```
 Can you see it now? 
+
+---
+## .<span class="git">GIT</span>IGNORE
+`.gitignore` is a special file in which you can put files which you want to, like the name suggests, ignore.
+
+Anything listed in the file will be omitted when commiting new changes.
+
+You can ignore single files, whole directories and its contents.
+You can even use regular expressions to ignore series of files which names have some kind of pattern.
 
 ---
 ## CREATING YOUR FIRST COMMIT
@@ -251,15 +260,6 @@ $ python main.py
 Completing definition of methods will be your next exercise.
 
 But before we get there, there's still one more file that we should talk about.
-
----
-## .<span class="git">GIT</span>IGNORE
-`.gitignore` is a special file in which you can put files which you want to, like the name suggests, ignore.
-
-Anything listed in the file will be omitted when commiting new changes.
-
-You can ignore single files, whole directories and its contents.
-You can even use regular expressions to ignore series of files which names have some kind of pattern.
 
 ---
 ## WORKING WITH BRANCHES
