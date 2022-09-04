@@ -13,15 +13,6 @@ paginate: true
 
 <!-- _footer: _Prepared by [Jakub Olejnik](https://www.linkedin.com/in/jakub-olejnik-85a686203/) | 2022_-->
 
----
-
-# PREREQUISITES
-- <span class="git">Git</span>
-    - Linux/Mac - you should be good👍
-    - Windows - [<span class="git">Git</span> Bash](https://git-scm.com/download/win) :
-- <span class="git">Git</span>Hub Account
-  - [with added SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-- Python 3 🐍
 
 ---
 # TODO
@@ -46,8 +37,30 @@ paginate: true
 `mkdir <directory>` - create a new directory
 `cd <directory>` - go to a directory
 `touch <file>` - create a file
+`cat <file>` - display file contents
 `rm <file>` - remove a file
 `rmdir <directory>` - remove a directory
+
+---
+### ADDING SSH KEY TO YOUR GITHUB ACCOUNT
+This part might be a bit confusing at this moment and you might find it much more clearer after the workshop.
+
+All need to know now is that wit an SSH key you don't have to authorize yourself everytime you want to push changes to your remote.
+
+Now open your terminal and type in:
+```
+$ ssh-keygen -t ed25519 
+```
+After successful completion, go to `~/.ssh` and check what files have been created. 
+
+---
+### ADDING SSH KEY TO YOUR GITHUB ACCOUNT
+`ssh-keygen` generates two keys: private and public.
+The former is just `id_ed25519` and the latter is `id_ed25519.pub`.
+
+Display contents of public key file and copy all of it.
+
+Nextly open GitHub and follow instruction of my real life version.
 
 ---
 # TODO

@@ -6,6 +6,7 @@ A small Git CLI (Command Line Interface) workshop prepared for people that haven
 ## PREREQUISITES
 - Git CLI 
 - Python 3 
+- GitHub account
 
 If something is missing go to [Setup](#setup) section.
 
