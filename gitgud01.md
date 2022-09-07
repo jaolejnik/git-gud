@@ -20,6 +20,7 @@ paginate: true
 - Bash CLI 101
 - Creating a repository
 - Working in a team
+- Best practices
 
 ----
 # TODO
@@ -38,7 +39,6 @@ _<span class="git">Git</span> is a free and open source distributed Version Cont
 I like to think about it as a very elaborate save system.
 Let my real life version explain what I mean!
 
- Best practices
 
 ---
 # TODO
