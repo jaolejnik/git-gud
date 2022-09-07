@@ -7,6 +7,7 @@ A small Git CLI (Command Line Interface) workshop prepared for people that haven
 - Git CLI 
 - Python 3 
 - GitHub account
+- Code editor of your choice (I recommend [Vistual Studio Code](https://code.visualstudio.com/?wt.mc_id=vscom_downloads), different than Vistual Studio)
 
 If something is missing go to [Setup](#setup) section.
 
@@ -17,7 +18,7 @@ Once you have everything you're free to get started!
 #### Windows
 Git installation on Windows is a really straightforward process. Go to  [official Git website download section](https://git-scm.com/downloads), select Windows, then pick your system version. Finally download and launch the installer. You don't need to change anything and just go with the suggested installation options. 
 
-### Mac/Linux
+#### Mac/Linux
 Git comes installed by default on most Mac machines and Linux distributions. So you who are working on these operating systems are in luck. To make sure you have it installed open a terminal and type in:
 ```
 $ git --version
@@ -30,7 +31,7 @@ If not, go to [official Git website download section](https://git-scm.com/downlo
 #### Windows
 [This article on RealPython](https://realpython.com/installing-python/) (great Python blog BTW) explains everything much better than I would ever have. Scroll down to Windows section and follow the instructions for one of the 3 ways of installation.
 
-### Mac/Linux
+#### Mac/Linux
 Similar to Git, Python comes preinstalled on most Mac machines and Linux distributions. You can check if you have one installed similarily to Git. Just open your terminal and type in: 
 ```
 $ python --version

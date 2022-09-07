@@ -16,16 +16,34 @@ paginate: true
 
 ---
 # TODO
-- Bash CLI 101
 - What is <span class="git">Git</span>?
+- Bash CLI 101
+- Creating a repository
+- Working in a team
+
+----
+# TODO
+- **What is <span class="git">Git</span>?** 👈
+-  Bash CLI 101 
 - Creating a repository
 - Working in a team
 - Best practices
 
 ---
+# WHAT IS <span class="git"> GIT</span>?
+_<span class="git">Git</span> is a free and open source distributed Version Control System (VCS) designed to handle everything from small to very large projects with speed and efficiency._ 
+
+<span class="audience-question">Ok, but what does it actually mean?</span>
+
+I like to think about it as a very elaborate save system.
+Let my real life version explain what I mean!
+
+ Best practices
+
+---
 # TODO
+- What is <span class="git">Git</span>? ✅
 - **Bash CLI 101** 👈
-- What is <span class="git">Git</span>?
 - Creating a repository
 - Working in a team
 - Best practices
@@ -39,7 +57,6 @@ paginate: true
 `touch <file>` - create a file
 `cat <file>` - display file contents
 `rm <file>` - remove a file
-`rmdir <directory>` - remove a directory
 
 ---
 ### ADDING SSH KEY TO YOUR GITHUB ACCOUNT
@@ -64,25 +81,8 @@ Nextly open GitHub and follow instruction of my real life version.
 
 ---
 # TODO
--  Bash CLI 101 ✅
-- **What is <span class="git">Git</span>?** 👈
-- Creating a repository
-- Working in a team
-- Best practices
-
----
-# WHAT IS <span class="git"> GIT</span>?
-_<span class="git">Git</span> is a free and open source distributed Version Control System (VCS) designed to handle everything from small to very large projects with speed and efficiency._ 
-
-<span class="audience-question">Ok, but what does it actually mean?</span>
-
-I like to think about it as a very elaborate save system.
-Let my real life version explain what I mean!
-
----
-# TODO
-- Bash CLI 101 ✅
 - What is <span class="git">Git</span>? ✅
+- Bash CLI 101 ✅
 - **Creating a repository** 👈
 - Working in a team
 - Best practices
@@ -148,6 +148,16 @@ If your commit message is short you can skip opening the editor and set the comm
 ```
 $ git commit -m <message>
 ``` 
+
+---
+## CHECKING YOUR COMMIT HISTORY
+Sometimes after coming back to the project after a short break you may not remember what was the last thing that has been done. Checking your commit history is a good way to catch up to speed and get to know what were the most recent changes.
+
+You can view your commit history by typing in:
+```
+$ git log
+```
+
 ---
 ## PUSHING YOUR CHANGES TO A REMOTE
 Pushing changes is basically uploading them to a remote server.
@@ -176,8 +186,8 @@ All done? Let's try with the push one more time.
 
 ---
 # TODO
-- Bash CLI 101 ✅
 - What is <span class="git">Git</span>? ✅
+- Bash CLI 101 ✅
 - Creating a repository ✅
 - **Working in a team** 👈
 - Best practices
@@ -190,8 +200,8 @@ After the break we'll be covering teamwork with <span class="git">Git</span>.
 
 ---
 # TODO
-- Bash CLI 101 ✅
 - What is <span class="git">Git</span>? ✅
+- Bash CLI 101 ✅
 - Creating a repository ✅
 - **Working in a team** 👈
 - Best practices
@@ -270,9 +280,7 @@ To run it just enter the following in the project directory:
 ```
 $ python main.py
 ```
-Completing definition of methods will be your next exercise.
-
-But before we get there, there's still one more file that we should talk about.
+Completing definition of methods will be your next exercise to which will get soon.
 
 ---
 ## WORKING WITH BRANCHES
@@ -287,9 +295,9 @@ $ git branch <new-branch>
 $ git checkout <new-branch>
 ```
 
-<!-- Now each person in the group may create a new branch with corresponding name:
+Now each person in the group may create a new branch with corresponding name:
 
------------------>  **name** | **age** | **country** | **job** <-----------------  -->
+----------------->  **name** | **age** | **country** | **job** <----------------- 
 
 ---
 ## EXERCISE 2
@@ -337,8 +345,8 @@ Back to my real life version to show how it can be done.
 
 ---
 # TODO
-- Bash CLI 101 ✅
 - What is <span class="git">Git</span>? ✅
+- Bash CLI 101 ✅
 - Creating a repository ✅
 - Working in a team ✅
 - **Best practices** 👈
@@ -355,8 +363,8 @@ Back to my real life version to show how it can be done.
 
 ---
 # TODO
-- Bash CLI 101 ✅
 - What is <span class="git">Git</span>? ✅
+- Bash CLI 101 ✅
 - Creating a repository ✅
 - Working in a team ✅
 - Best practices ✅
