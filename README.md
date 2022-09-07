@@ -16,7 +16,7 @@ Once you have everything you're free to get started!
 ## SETUP
 ### Installing Git CLI
 #### Windows
-Git installation on Windows is a really straightforward process. Go to  [official Git website download section](https://git-scm.com/downloads), select Windows, then pick your system version. Finally download and launch the installer. You don't need to change anything and just go with the suggested installation options. 
+Git installation on Windows is a really straightforward process. Go to  [official Git website download section](https://git-scm.com/downloads), select Windows, then pick your system version. Finally download and launch the installer. When asked bout the defualt text editor open the drop down list and select `nano` or leave it as `vim` if you're feeling adventurous.Apart from that you don't need to change anything else and just go with the suggested installation options. 
 
 #### Mac/Linux
 Git comes installed by default on most Mac machines and Linux distributions. So you who are working on these operating systems are in luck. To make sure you have it installed open a terminal and type in:
